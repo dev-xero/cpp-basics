@@ -1,12 +1,14 @@
 #include <iostream>
 
+using namespace ::std;
+
 int main() {
-    std::cout << "Enter two numbers: " << std::endl;
+    cout << "Enter two numbers: " << endl;
     int v1 = 0, v2 = 0;
 
-    std::cin >> v1 >> v2;
+    cin >> v1 >> v2;
     int sum = v1 + v2;
 
-    std::cout << "The sum of " << v1 << " and " << v2 << " is " << sum << std::endl;
+    cout << "The sum of " << v1 << " and " << v2 << " is " << sum << endl;
     return 0;
 }
